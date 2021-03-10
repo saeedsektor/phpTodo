@@ -36,7 +36,9 @@
                     <p><?php echo $task->body ?></p>
                     <form name="taskForm" class="form" action="<?php echo URLROOT; ?>/index" method="GET">
                         <input type="hidden" name="task_id" value="<?php echo $task->id ?>"/>
-                        <button class="btn-green" name="submit" type="submit">✔ </button>
+                        <div>
+                            <button class="btn-green" name="submit" type="submit">✔ </button>
+                        </div>
                     </form>
                 </article>
                 <hr/>

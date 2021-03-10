@@ -27,7 +27,7 @@ input, input:focus {
     height: auto;
     display: grid;
     grid-template-columns: 70% 20%;
-    padding: 1em 2em;
+    padding: 1em 0;
 }
 
 .top-nav ul {
@@ -128,15 +128,12 @@ input, input:focus {
     grid-gap: 20px;
 }
 
-.items-undone article {
-    display: grid;
-    grid-template-columns: 90% auto;
-}
 
 .btn-green {
     border: 0;
     background-color: #10d181;
     border-radius: 5px;
+    padding: 1em;
 }
 
 .btn-green:hover{
