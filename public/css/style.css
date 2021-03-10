@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, input:focus {
+    padding: 1.5em;
+    border: 1px solid #3b3b3b;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.top-nav{
+    background-color: #404040;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 20%;
+    padding: 1em 2em;
+}
+
+.top-nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-nav ul li {
+    list-style-type: none;
+}
+
+.top-nav ul li a{
+    color: #fff;
+    padding: 1em;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+.top-nav ul li a:hover{
+    color: #404040;
+    background-color: #94E36F;
+    box-shadow: 10px 10px 53px 5px rgba(152,255,148,.2);
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+
+.top-nav img {
+    width: 35px;
+    padding: 0 6em;
+}
+
+.container {
+    width: 1024px;
+    margin: 2em auto;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 85% 10%;
+    grid-gap: 5%;
+}
+
+.btn {
+    font-weight: bold;
+    border: 0;
+    background-color: #fff;
+    background-color: #6FC2FF;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.container-user {
+    width: 500px;
+    margin: 2em auto;
+}
+
+.container-user form {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.container-user form input {
+    padding: 1em 0;
+    margin: 1em 0;
+}
+
+.btn-register {
+    font-weight: bold;
+    border: 0;
+    background-color: #fff;
+    background-color: #6FC2FF;
+    padding: 1em;
+}
+
+.btn-register:hover{
+    cursor: pointer;
+}
+
+.error{
+    color:crimson;
+}
+
+.task-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.items article {
+    display: grid;
+    grid-template-columns: 90% auto;
+    grid-gap: 20px;
+}
+
+.items-undone article {
+    display: grid;
+    grid-template-columns: 90% auto;
+}
+
+.btn-green {
+    border: 0;
+    background-color: #10d181;
+    border-radius: 5px;
+}
+
+.btn-green:hover{
+    cursor: pointer;
+}
+
+
+.btn-red {
+    border: 0;
+    color: #fff;
+    background-color: #c52d2d;
+    border-radius: 5px;
+}
+
+.btn-red:hover{
+    cursor: pointer;
+}
+
+hr{
+    border: dashed#ebebeb;
+}
